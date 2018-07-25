@@ -9,7 +9,7 @@ npm start
 
 Visit [http://localhost:3000/](http://localhost:3000/).
 
-To test
+## To test
 ```
 npm test
 ```
