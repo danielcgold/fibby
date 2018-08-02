@@ -1,5 +1,6 @@
 extends layout
 
 block content
-  h1.site-title Dan Gold made the sum of even fibonacci numbers
-  p.number-string #{getFibonacci}
+  h1.site-title Dan Gold made math
+  p.number-string the sum of even fibonacci numbers: <strong>#{getFibonacci}</strong>
+  p.number-string  amount of change received based on <strong>$#{getAmountToChange}</strong> is <strong>#{getChange}</strong>
